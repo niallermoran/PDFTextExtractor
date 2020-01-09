@@ -20,7 +20,8 @@ namespace PDFTextExtractor
             string folderPath = AppContext.BaseDirectory;
 
 #if DEBUG
-            folderPath = @"C:\Users\nimoran\OneDrive\ErinsIsle\Child Protection\Vetting";
+            // using a different path for debugging
+            folderPath = @"C:\pdf";
 #endif
 
             Console.WriteLine("PDF Text Extractor will extract text from all PDF files in the current folder");
