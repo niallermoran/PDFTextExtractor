@@ -24,7 +24,7 @@ namespace PDFTextExtractor
             folderPath = @"C:\pdf";
 #endif
 
-            Console.WriteLine("PDF Text Extractor will extract text from all PDF files in the current folder");
+            Console.WriteLine( string.Format( "PDF Text Extractor will extract text from all PDF files in folder {0}", folderPath ));
             Console.WriteLine("Text will be stored in txt files within the same folder and will be automatically overwritten should they exist");
             Console.WriteLine("");
             Console.WriteLine("Press return to continue");
